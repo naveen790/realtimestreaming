@@ -5,7 +5,13 @@ This is a POC on how to build a near Realtime Processing system using Apache Sto
 For building this system, we would require
 
 Hadoop 2.6.0
+
 Zookeeper 3.4.6
-Apache Kafka 0.8.2.1 Scala2.9.1
+
+Apache Kafka 0.8.2.1
+
 Apache Solr 5.5.3
+
 Apache Storm 0.10.0
+
+Load it to storm using "bin/storm jar stormkafka-0.0.1-SNAPSHOT.jar com.naveen.storm.Topology"
